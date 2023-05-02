@@ -38,29 +38,29 @@ const MyInfo = () => {
       <Divider orientation='left'>博客简述</Divider>
       <p>本博客使用的技术为 react hooks + antd + koa2 + mysql</p>
       <p>
-        源码地址为 <Href href='https://github.com/gershonv/react-blog'>github</Href>
+        源码地址为 <Href href='https://github.com/zhangliumingZLM/blog-web.git'>github</Href>
         ，仅供参考，不做商业用途！
       </p>
 
       <Divider orientation='left'>关于我</Divider>
 
       <ul className='about-list'>
-        <li>姓名：Guodada</li>
-        <li>学历专业：本科 软件工程</li>
+        <li>姓名：张刘明</li>
+        <li>学历专业：硕士研究生 计算机技术</li>
         <li>
           联系方式：
           {/* <Icon type='qq' /> 434358603
           <Divider type='vertical' /> */}
           <SvgIcon type='iconemail' style={{ marginRight: 5, transform: 'translateY(2px)' }} />
-          <a href='mailto:alvin00216@163.com'>alvin00216@163.com</a>
+          <a href='mailto:2822066366@qq.com'>2822066366@qq.com</a>
         </li>
-        <li>坐标：广州市</li>
-        <li>
+        <li>坐标：南京市</li>
+        {/* <li>
           其他博客地址：
           <Href href='https://alvin.run'>alvin's note</Href>
           <Divider type='vertical' />
           <Href href='https://juejin.im/user/5acac6c4f265da2378408f92'>掘金主页</Href>
-        </li>
+        </li> */}
         <li>
           技能
           <ul>

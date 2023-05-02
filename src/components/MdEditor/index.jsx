@@ -1,21 +1,17 @@
 import React, { Component, useEffect, useState } from 'react'
 
-import SimpleMDE from 'react-simplemde-editor'
-import 'easymde/dist/easymde.min.css'
-
-import { translateMarkdown } from '@/utils'
+import ReactQuill from 'react-quill'
+import 'react-quill/dist/quill.snow.css'
+import './index.less'
 
 function MdEditor(props) {
-  // useEffect(() => {}, [])
-
-  // return <textarea id='simple-editor' style={{ display: 'none' }} />
   return (
-    <SimpleMDE
+    <ReactQuill
+      theme='snow'
       value={props.value}
       onChange={props.onChange}
-      options={{ autofocus: true, autosave: true, previewRender: translateMarkdown }}
-    />
-  )
+      height='450'
+    />)
 }
 
 export default MdEditor

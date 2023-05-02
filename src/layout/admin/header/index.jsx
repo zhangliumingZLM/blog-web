@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom'
 import { loginout } from '@/redux/user/actions'
 
 import { Button, Icon, Dropdown, Menu, Avatar } from 'antd'
-import logo from '@/assets/images/avatar.jpeg'
+import logo from '@/assets/images/avatar.jpg'
 
 function AdminHeader(props) {
   const dispatch = useDispatch()
