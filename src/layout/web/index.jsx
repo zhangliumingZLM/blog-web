@@ -5,6 +5,7 @@ import { Layout, Icon, Row, Col, BackTop } from 'antd'
 import Header from './header'
 import SideBar from './sidebar'
 import AppMain from './AppMain'
+import Footer from './footer'
 
 // 响应式
 const siderLayout = { xxl: 4, xl: 5, lg: 5, sm: 0, xs: 0 }
@@ -20,6 +21,7 @@ const WebLayout = props => {
         </Col>
         <Col {...contentLayout}>
           <AppMain {...props} />
+          <Footer />
         </Col>
       </Row>
       <BackTop target={() => document.querySelector('.app-main')} />
